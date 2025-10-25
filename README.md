@@ -1,14 +1,14 @@
-# 🎬 NeoClaquet
+# 🎬 Neoclaquet
 
-## Atividade de Consumo de API com React.JS
+## Atividade de Consumo da API do TMDB com React.JS
 
 ## ✨ Funcionalidades Principais do Projeto
 
 - **Página Inicial Dinâmica:** Exibe um filme em destaque aleatório a cada visita.
 - **Catálogo de Filmes:** Navegue por filmes populares, em alta ou mais votados.
-- **Filtros Interativos:** Filtre o catálogo por género com seleção única.
+- **Filtros Interativos:** Filtre o catálogo por gênero com seleção única.
 - **Busca de Filmes:** Pesquise filmes por nome em toda a base de dados.
-- **Página de Detalhes:** Veja informações completas de cada filme, incluindo poster, sinopse, nota e diretor.
+- **Página de Detalhes:** Veja informações completas de cada filme, incluindo pôster, sinopse, nota e diretor.
 - **"Minha Lista" com Persistência:** Adicione ou remova filmes de uma lista de favoritos que fica guardada no seu navegador (`localStorage`).
 
 ## 🚀 Como Rodar o Projeto Localmente
@@ -21,15 +21,15 @@ Para executar este projeto em sua máquina, siga os passos abaixo.
 - Uma chave de API do [TMDB](https://www.themoviedb.org/signup)
 
 1.  **Clone o repositório:**
-    s
+    
     `bash
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+git clone https://github.com/EnzoRochaSantos/Neoclaquet.git
 `
 
 2.  **Navegue até a pasta do projeto:**
 
     ```bash
-    cd Atividade IMDB Movies +PraTI
+    cd Neoclaquet
     ```
 
 3.  **Instale as dependências:**
@@ -55,6 +55,6 @@ git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.co
 
 - **React.js:** Biblioteca principal para a construção da interface.
 - **Vite:** Ferramenta de build e servidor de desenvolvimento.
-- **React Router DOM:** Para a navegação e sistema de rotas.
+- **React Router DOM:** Para a navegação e o sistema de rotas.
 - **Tailwind CSS:** Para a estilização rápida e responsiva.
 - **Context API:** Para a gestão do estado global da "Minha Lista".
